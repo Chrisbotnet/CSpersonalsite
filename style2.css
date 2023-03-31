@@ -1,62 +1,69 @@
-html{
-    font-family: kanit;
-    text-align: center;
+html {
+  font-family: kanit;
+  text-align: center;
 }
-header{
-    background-color: aliceblue;
-    background: rgba(200, 200, 200, 0.5);
-    border: 10px solid;
-    font-size: 40px;
-    padding: 2%;
-    margin: 3%;
-    border-radius: 25px;
-    font-family: kanit;
+header {
+  background-color: aliceblue;
+  background: rgba(200, 200, 200, 0.5);
+  border: 10px solid;
+  font-size: 40px;
+  padding: 2%;
+  margin: 3%;
+  border-radius: 25px;
+  font-family: kanit;
 }
-nav{
-    border: 2px;
+nav {
+  border: 2px;
 }
-body{
-    background-image: url(https://i.redd.it/00e56bhqr3h41.png);
-    font-size: 25px;
+body {
+  background-image: url(https://i.redd.it/00e56bhqr3h41.png);
+  font-size: 25px;
 }
-p{
-    border: 10px solid; border-radius: 25px;
-    padding: 10%;
-    margin: 10%;
-    background: rgb(200, 200, 200, 0.5);
+p {
+  border: 10px solid;
+  border-radius: 25px;
+  padding: 10%;
+  margin: 10%;
+  background: rgb(200, 200, 200, 0.5);
 }
-img{
-    border: 10px solid rgb(0, 0, 0, 0.5);
-    border-radius: 25px;
-    height: 420px;
-    width: 700px;
-    max-width: 100%;
+img {
+  border: 10px solid rgb(0, 0, 0, 0.5);
+  border-radius: 25px;
+  height: 420px;
+  width: 700px;
+  max-width: 100%;
   height: auto;
+}
+a {
+  color: rgb(148, 148, 148);
+  text-decoration: none;
 }
 ul {
   list-style-type: none;
   margin: 5;
   padding: 0;
 }
-li {  
-  -webkit-text-fill-color: rgb(0, 0, 0);
+li {
+  font-size: 25px;
   display: inline;
   text-align: center;
   padding: 5px 5px;
   margin: 5px;
-  background-color: rgba(200, 200, 200, 0.5);
+  background-color: rgba(154, 80, 223, 0.404);
   border-radius: 10px;
-  border: solid black 5px
-  
+  border: solid black 5px;
 }
 li a:hover {
-  background-color: rgb(200, 200, 200, 0.5);
+  background-color: rgb(200, 200, 200, 0.2);
   border-radius: 5px;
 }
 a:link {
   text-decoration: none;
-
 }
-footer{
-font-size: 25px;
+a:hover {
+  background-color: rgb(200, 200, 200, 0.2);
+  border-radius: 5px;
+}
+footer {
+  font-size: 25px;
 }
