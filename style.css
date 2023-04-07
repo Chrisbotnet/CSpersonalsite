@@ -12,6 +12,7 @@ header {
   font-family: kanit;
 }
 body {
+  padding: 1px;
   height: 100%;
   background-image: url(https://img.itch.zone/aW1hZ2UvNTA5NjUwLzI2NDQ5NDYucG5n/original/vBXVN4.png);
   background-repeat: no-repeat;
@@ -25,7 +26,7 @@ p{
 h1 {
   font-size: 40px;
   border: 5px solid rgb(0, 0, 0);
-  background-color: rgb(222, 184, 135, 0.7);
+  background-color: rgb(252, 176, 77);
   text-align: center;
   color: rgb(124, 94, 233);
   border-radius: 25px;

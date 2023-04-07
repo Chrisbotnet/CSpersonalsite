@@ -12,11 +12,9 @@ header {
   font-family: kanit;
 }
 body {
-  background-image: url(https://i.pinimg.com/originals/cf/70/17/cf701732ece053881825d9ae9b96129c.jpg);
-  font-size: 25px;
-  background-repeat: no-repeat;
+  background-image: url(https://preview.redd.it/x9h3rlmv3in91.png?width=3440&format=png&auto=webp&v=enabled&s=9e810372d40d0d332a7098ca791f5944d3479161);
   background-position: center;
-  background-size: cover;
+  font-size: 25px;
 }
 p {
   border: 10px solid;
