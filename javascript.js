@@ -21,4 +21,4 @@ function sendmail(){
 })
 .catch(err=>console.log(err));
 }
-
+//Will have to submit this even though the email form is not yet working. Will update it when I get it sorted out.
