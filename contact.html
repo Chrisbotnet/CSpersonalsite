@@ -22,7 +22,8 @@
      </nav>
 <body>
     <div class="container">
-    <form action="">Get in touch with me.</form>
+   <form action="https://formsubmit.co/el/jucuxu" method="POST">
+    <h3>Get in touch with me.</h3>
     <label for="fname">Name</label>
     <input type="text" id="fname" name="fname" placeholder="Enter your name">
     <label for="email">Email</label>
@@ -30,7 +31,28 @@
     <br>
     <textarea id="message" name="message" placeholder="Enter your message here."></textarea>
     <br>
-    <button class="btn btn-primary"onclick="sendMail()">Submit</button>
+    <button class="btn btn-primary"onclick="sendEmail()">Submit</button>
+    <input type="hidden" name="_next" value="finalform.html">
     </div>
+   </form>
+    <script src="javascript.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+     function sendEmail(){
+          Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "cs_webdev@outlook.com",
+    Password : "20B680D9653FBC450177D0DF47BF3ED3AF2A",
+    To : 'cs_webdev@outlook.com',
+    From : document.getElementById("email").value,
+    Subject : "New message from personal website",
+    Body : "name: " + document.getElementById("name").value
+     + "<br> email: " +document.getElementById("email").value
+     + "<br> message: " +document.getElementById("message").value
+    }).then(
+   message => alert("message")
+);
+     }
+    </script>
 </body>
 </html>
