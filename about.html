@@ -9,6 +9,7 @@
     <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="javascript.js">
     <title>Christopher Strother - About</title>
 </head>
      <nav>
@@ -21,7 +22,11 @@
 
 <header>About Me</header>
 <body>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
     
+<section> 
+
     <p>
         <img src="https://lh3.googleusercontent.com/pw/AMWts8D88nrihMpofItbSW_StY5E2SdodGJ25TpYYZr9DlQyqGddqhHWe1mCUQefDuypNLGA4H5bdVCrrfsirVbDmQGi3NpG2dmLh54c_UVosdFB5kHGV1OvQyy0blju0t0ECqRWV6QN9lHxPXurRqcDLGs=w480-h640-s-no?authuser=0" alt="">
         <br>
@@ -31,7 +36,18 @@
 
     </p>
 
-
+</section>   
+<script type="text/javascript">
+Let progress = document.getElementById('progressbar'
+);
+Let totalHeight = document.body.scrollHeight -
+window.innerHeight;
+window.onscroll = funtion(){
+    Let progressHeight = (window.pageYOffset / totalHeight) * 100;
+    progress.style.height = progressHeight + "%";
+}
+//cant get this scrollbar to work properly but it is pretty at least :( 
+</script>
 
 </body>
 <footer><a href="contact.html">Contact me</a></footer>
