@@ -79,7 +79,11 @@ textarea {
   height: 350px;
   width: 420px;
 }
+<<<<<<< HEAD
 button {
+=======
+li1 {
+>>>>>>> 4bb6ece6431c5fd6cdfade7e895db2d8941bc839
   font-size: 25px;
   display: inline;
   text-align: center;
@@ -93,6 +97,7 @@ li1 a:hover {
   background-color: rgba(193, 194, 223, 0.5);
   border-radius: 5px;
 }
+<<<<<<< HEAD
 ::-webkit-scrollbar{
   width: 0;
 }
@@ -140,3 +145,5 @@ li1 a:hover {
     background: linear-gradient(to top, #008aff,#00ffe7);
     filter: blur(10px);
   }
+=======
+>>>>>>> 4bb6ece6431c5fd6cdfade7e895db2d8941bc839
