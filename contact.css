@@ -81,9 +81,6 @@ textarea {
 }
 <<<<<<< HEAD
 button {
-=======
-li1 {
->>>>>>> 4bb6ece6431c5fd6cdfade7e895db2d8941bc839
   font-size: 25px;
   display: inline;
   text-align: center;
@@ -92,10 +89,6 @@ li1 {
   background-color: rgba(0, 119, 255, 0.733);
   border-radius: 10px;
   border: solid black 3px;
-}
-li1 a:hover {
-  background-color: rgba(193, 194, 223, 0.5);
-  border-radius: 5px;
 }
 <<<<<<< HEAD
 ::-webkit-scrollbar{
